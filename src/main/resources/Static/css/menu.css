@@ -10,7 +10,7 @@ body{
 }
 
 .header{
-    background-color: #bbbbbb;
+    background-color: #dcdcdc;
     height: 80px;
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@ body{
 }
 
 .nav-menu-link:hover{
-    background-color: #808080;
+    background-color: #FA8072;
     transform: 0.5s;
 }
 
@@ -85,3 +85,11 @@ body{
     overflow: auto;
 }
 
+button{
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007FFF;
+  margin:10px;
+}
