@@ -28,22 +28,36 @@
 
     <p style="text-align:center;">
         <img src="Imagenes/triangulo.png" alt=""/>
-    <p style="text-align:center;">
-        <img src="Imagenes/cuadro triangulo.png" alt=""/>
+
 
         <!-- Audio no sirve en la imagen -->
-        <audio controls>
-            <source src="audios/Triangulo.mp3" type="audio/mpeg">
-            Your browser does not support the <code>audio</code> tag.
-        </audio>
+    <center>!!!Toca la palabra para escuchar el audio!!!</center> 
 
+    <p style="text-align:center;">
+
+        <button  style="background-color:red; border-color:black; color:white" class="reproductor">Triangulo</button>
+
+        <script>
+            let boton = document.querySelector(".reproductor")
+
+            boton.addEventListener("click", () => {
+                let etiquetaAudio = document.createElement("audio")
+                etiquetaAudio.setAttribute("src", "audios/Triangulo.mp3")
+                etiquetaAudio.play()
+            })
+        </script>
+ 
     <center>
         <form method="post" action="">
             <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe el nombre de la Figura</textarea><br />
 
         </form>
+        
+        <a href="cuadrado.html">
+            <button style="background-color:red; border-color:black; color:white">Anterior</button>
+        </a>
         <a href="rombo.html">
-            <button>Siguiente</button>
+            <button style="background-color:red; border-color:black; color:white">Siguiente</button>
         </a>
     </form>
 </center>

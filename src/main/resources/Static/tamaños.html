@@ -27,15 +27,27 @@
 
     <p style="text-align:center;">
         <img src="Imagenes/pequeño.png" alt=""/>
-    <p style="text-align:center;">
-        <img src="Imagenes/cuadro pequeño.png" alt=""/>
+
 
 
     <!-- Audio no sirve en la imagen -->
-    <audio controls>
-        <source src="audios/Pequeño.mp3" type="audio/mpeg">
-        Your browser does not support the <code>audio</code> tag.
-    </audio>
+  
+    
+    <center>!!!Toca la palabra para escuchar el audio!!!</center> 
+    
+    <p style="text-align:center;">
+        
+        <button  style="background-color:green; border-color:black; color:white" class="reproductor">Pequeño</button>
+
+        <script>
+            let boton = document.querySelector(".reproductor")
+
+            boton.addEventListener("click", () => {
+                let etiquetaAudio = document.createElement("audio")
+                etiquetaAudio.setAttribute("src", "audios/Pequeño.mp3")
+                etiquetaAudio.play()
+            })
+        </script>
 
     <center>
         <form method="post" action="">
@@ -43,7 +55,7 @@
         </form>
 
         <a href="mediano.html">
-            <button>Siguiente</button>
+            <button style="background-color:green; border-color:black; color:white">Siguiente</button>
         </a>
 
     </form>
