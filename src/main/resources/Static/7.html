@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-
 <html>
     <head>
-        <title>Play&Learn</title>
+        <title>PLAY&LEARN</title>
         <meta charset="UTF-8">
 
         <link href="css/menu.css" rel="stylesheet" type="text/css"/>
@@ -10,11 +8,11 @@
     <body>
         <header class="header">  <!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
             <nav class="nav"> <!-- esta etiqueta es para ilustrarle al browser que posiblemente es un menú -->
-                <a href="index.html" class="logo nav-link"style="color: #d03588">Play&Learn</a>
+                <a href="index.html" class="logo nav-link"style="color: #d03588">PLAY&LEARN</a>
                 <ul class="nav-menu">
                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href=""style="color: black">&LeftTriangleBar;</a></li>
                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href=""style="color: black">&RightTriangleBar;</a></li>
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="aprender.html" style="color: red"> APRENDER</a></li>
+                    <<li class="nav-menu-item"><a class="nav-menu-link nav-link" href="aprender.html" style="color: red"> APRENDER</a></li>
                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Medallas.html" style="color: orange">MEDALLAS</a></li>
                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="perfil.html" style="color: yellow">PERFIL</a></li>
 
@@ -24,40 +22,40 @@
             </nav>
         </header>  
 
-        <font face="roman" style="color:green"><h1> APRENDAMOS LOS TAMAÑOS </h1></font> <center>¿Cuál es el tamaño?</center> 
+        <font face="roman" style="color:#FFDB58"><h1> APRENDAMOS LOS NÚMEROS </h1></font> <center>¿Cuál es el número?</center> 
 
     <p style="text-align:center;">
-        <img src="Imagenes/grande.png" alt=""/>
-
+        <img src="Imagenes/07.png" alt=""/></p>
 
 
     <!-- Audio no sirve en la imagen -->
-  
-<center>!!!Toca la palabra para escuchar el audio!!!</center> 
+    <center>!!!Toca la palabra para escuchar el audio!!!</center> 
     
     <p style="text-align:center;">
         
-        <button  style="background-color:green; border-color:black; color:white" class="reproductor">Grande</button>
+        <button  style="background-color:#FFDB58; border-color:black; color:black" class="reproductor">Siete</button>
 
         <script>
             let boton = document.querySelector(".reproductor")
 
             boton.addEventListener("click", () => {
                 let etiquetaAudio = document.createElement("audio")
-                etiquetaAudio.setAttribute("src", "audios/Grande.mp3")
+                etiquetaAudio.setAttribute("src", "audios/7.mp3")
                 etiquetaAudio.play()
             })
         </script>
+
+
     <center>
         <form method="post" action="">
-            <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe el tamaño</textarea><br />
+            <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe el número</textarea><br />
         </form>
 
-         <a href="mediano.html">
-            <button style="background-color:green; border-color:black; color:white">Anterior</button>
+        <a href="6.html">
+            <button style="background-color:#FFDB58; border-color:black; color:black">Anterior</button>
         </a>
-        <a href="CategoriaCompletada.html">
-            <button style="background-color:green; border-color:black; color:white">Siguiente</button>
+        <a href="8.html">
+            <button style="background-color:#FFDB58; border-color:black; color:black">Siguiente</button>
         </a>
 
     </form>
