@@ -22,10 +22,10 @@
             </nav>
         </header>  
 
-        <font face="roman" style="color:orange"><h1> APRENDAMOS LAS VOCALES </h1></font> <center>¿Cuál es el color?</center> 
+        <font face="roman" style="color:lightskyblue"><h1> APRENDAMOS LAS VOCALES </h1></font> <center>¿Cuál es la vocal?</center> 
 
     <p style="text-align:center;">
-        <img src="Imagenes/amarillo.png" alt=""/></p>
+        <img src="Imagenes/E.png" alt=""/></p>
 
 
     <!-- Audio no sirve en la imagen -->
@@ -33,14 +33,14 @@
     
     <p style="text-align:center;">
         
-        <button  style="background-color:orange; border-color:black; color:black" class="reproductor">Amarillo</button>
+        <button  style="background-color:lightskyblue; border-color:black; color:black" class="reproductor">E</button>
 
         <script>
             let boton = document.querySelector(".reproductor")
 
             boton.addEventListener("click", () => {
                 let etiquetaAudio = document.createElement("audio")
-                etiquetaAudio.setAttribute("src", "audios/Amarillo.mp3")
+                etiquetaAudio.setAttribute("src", "audios/E.mp3")
                 etiquetaAudio.play()
             })
         </script>
@@ -48,12 +48,15 @@
 
     <center>
         <form method="post" action="">
-            <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe el color</textarea><br />
+            <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe la vocal</textarea><br />
         </form>
 
         
-        <a href="Azul.html">
-            <button style="background-color:orange; border-color:black; color:black">Siguiente</button>
+      <a href="vocales.html">
+            <button style="background-color:lightskyblue; border-color:black; color:black">Anterior</button>
+        </a>
+        <a href="I.html">
+            <button style="background-color:lightskyblue; border-color:black; color:black">Siguiente</button>
         </a>
 
     </form>

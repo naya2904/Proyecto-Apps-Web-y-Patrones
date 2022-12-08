@@ -1,3 +1,4 @@
+<<!DOCTYPE html>
 <html>
     <head>
         <title>PLAY&LEARN</title>
@@ -25,7 +26,7 @@
         <font face="roman" style="color:orange"><h1> APRENDAMOS LAS VOCALES </h1></font> <center>¿Cuál es el color?</center> 
 
     <p style="text-align:center;">
-        <img src="Imagenes/amarillo.png" alt=""/></p>
+        <img src="Imagenes/verde.png" alt=""/></p>
 
 
     <!-- Audio no sirve en la imagen -->
@@ -33,18 +34,17 @@
     
     <p style="text-align:center;">
         
-        <button  style="background-color:orange; border-color:black; color:black" class="reproductor">Amarillo</button>
+        <button  style="background-color:orange; border-color:black; color:black" class="reproductor">Verde</button>
 
         <script>
             let boton = document.querySelector(".reproductor")
 
             boton.addEventListener("click", () => {
                 let etiquetaAudio = document.createElement("audio")
-                etiquetaAudio.setAttribute("src", "audios/Amarillo.mp3")
+                etiquetaAudio.setAttribute("src", "audios/Verde.mp3")
                 etiquetaAudio.play()
             })
         </script>
-
 
     <center>
         <form method="post" action="">
@@ -52,7 +52,10 @@
         </form>
 
         
-        <a href="Azul.html">
+        <a href="blanco.html">
+            <button style="background-color:orange; border-color:black; color:black">Anterior</button>
+              </a>
+        <a href=CategoriaCompletada.html>
             <button style="background-color:orange; border-color:black; color:black">Siguiente</button>
         </a>
 
